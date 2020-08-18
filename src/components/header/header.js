@@ -17,7 +17,7 @@ export default class Header extends Component {
         </nav> {/* end #nav-wrap */}
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline"> I am Janam Parikh.</h1>
+            <h1 className="responsive-headline">Janam Parikh.</h1>
             <h3>
               <b>Full Stack Developer | Aspiring Data Scientist | Software Engineer</b>
             </h3>  
