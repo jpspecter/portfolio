@@ -97,11 +97,11 @@ export default class Header extends Component {
             <h1><span>Skills</span></h1>
           </div>
           <div className="nine columns main-col">
-            <li>Programming Languages: Java, C, C++, Python, JavaScript, HTML5, CSS, C#, SQL, Kotlin, R, MIPS</li>
+            <li>Programming Languages: Java, C, C++, Python, JavaScript, HTML5, CSS, C#, SQL, Kotlin, R</li>
             <li>Tools: Amazon Web Services, Git, Heroku, Firebase, MS Office 365, Apache Kafka</li>
             <li>Frameworks: React Native, Flask, .NET Core, ReactJS, Django, Node.js, Bootstrap</li>
             <li>Libraries: Pandas, Numpy, Matplotlib, Scikit-learn, Dplyr, Ggplot2</li>
-            <li>Relevant Coursework: Data Structures, Algorithms, Database Systems, Discrete Math, UNIX, Computer Architecture</li>
+            <li>Relevant Coursework: Data Structures, Algorithms, Database Systems, UNIX, Architecture</li>
             <div className="bars">
               <ul className="skills">
                 <li><span className="bar-expand photoshop" /><em>Python</em></li>
