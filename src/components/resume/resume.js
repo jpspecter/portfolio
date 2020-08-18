@@ -39,9 +39,10 @@ export default class Header extends Component {
                 <h3>NCR Corporation</h3>
                 <p className="info">Software Engineering Intern<span>•</span> <em className="date">May 2020 - Aug 2020</em></p>
                 <p>
-                  <li>Integrated Flybuy Geolocation SDK into NCR’s Android App and Media Player</li>
-                  <li>Used Apache Kafka and .NET for backend functionality</li>
-                  <li>Built a strong relationship with my peers in this virtual internship using tools like Teams</li>
+                  <li>Integrated Flybuy Geolocation SDK into NCR’s native Android (Kotlin) App</li>
+                  <li>Created a .NET Core application for backend functionality</li>
+                  <li>Utilized Apache Kafka for message transfer and MySQL for the database</li>
+                  <li>Integrated the Clutch API for displaying personalized marketing offers</li>
                 </p>
               </div>
             </div> {/* item end */}
@@ -51,9 +52,10 @@ export default class Header extends Component {
                 <h3>Foundation Communities</h3>
                 <p className="info">Software Engineer<span>•</span> <em className="date">Aug 2019  - Dec 2019</em></p>
                 <p>
-                  <li>Developed a financial literacy app using React Native and Firebase</li>
-                  <li>Added a maps functionality to the app using Google Maps API and React Native</li>
-                  <li>Gave a UI redesign to the app based on customer specification</li>
+                  <li>Developed an app for Foundation Communities using JavaScript, React Native and Firebase</li>
+                  <li>Added maps functionality to the app using Google Maps API</li>
+                  <li>Collaborated closely with the UI team to redesign the app using Bootstrap</li>
+                  <li>Deployed the application on Heroku for cloud integration</li>
                 </p>
               </div>
             </div> {/* item end */}
@@ -61,6 +63,13 @@ export default class Header extends Component {
             <div className="row item">
               <div className="twelve columns">
                 <h3>University of Texas at Dallas</h3>
+
+                <p className="info">Support Analyst, Office of IT<span>•</span> <em className="date">Aug 2020 - Present</em></p>
+                <p>
+                  <li>Provided direct IT support to UTD students, faculty, staff, and affiliates</li>
+                  <li>Fully documented all support interactions for tracking and escalation purposes</li>
+                </p>
+
                 <p className="info">Orientation Leader<span>•</span> <em className="date">May 2019 - Aug 2019</em></p>
                 <p>
                   <li>Worked with 50 student leaders to assist 4,000 new students during their transition to UTD</li>
