@@ -12,7 +12,7 @@ export default class Header extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-01" title>
-                    <img alt="" src="images/portfolio/game.jpg" />
+                    <img alt="" src="images/portfolio/dinner.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Dinner Decider</h5>
