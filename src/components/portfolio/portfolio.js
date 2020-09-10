@@ -137,7 +137,7 @@ export default class Header extends Component {
             <div className="description-box">
               <h4>Reddit Client</h4>
               <p>A small Reddit Android client developed using Kotlin</p>
-              <span className="categories"><i className="fa fa-tag" />R</span>
+              <span className="categories"><i className="fa fa-tag" />Android Development</span>
             </div>
             <div className="link-box">
               <a href="https://github.com/jpspecter/Reddit-Client">Github</a>
