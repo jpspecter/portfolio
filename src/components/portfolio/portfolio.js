@@ -65,6 +65,21 @@ export default class Header extends Component {
                   </a>
                 </div>
               </div> {/* item end */}
+              <div className="columns portfolio-item">
+                <div className="item-wrap">
+                  <a href="#modal-05" title>
+                    <img alt="" src="images/portfolio/reddit.jpg" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>Reddit Client</h5>
+                        <p>Android Development</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                </div>
+              </div> {/* item end */}
+              
             </div> {/* portfolio-wrapper end */}
           </div> {/* twelve columns end */}
           {/* Modal Popup
@@ -117,6 +132,19 @@ export default class Header extends Component {
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-04 End */}
+          <div id="modal-05" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/portfolio/modals/m-reddit.jpg" alt="" />
+            <div className="description-box">
+              <h4>Reddit Client</h4>
+              <p>A small Reddit Android client developed using Kotlin</p>
+              <span className="categories"><i className="fa fa-tag" />R</span>
+            </div>
+            <div className="link-box">
+              <a href="https://github.com/jpspecter/Reddit-Client">Github</a>
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>{/* modal-05 End */}
+
         </div> {/* row End */}
       </section>
       </React.Fragment>
