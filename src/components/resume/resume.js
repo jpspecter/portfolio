@@ -68,6 +68,7 @@ export default class Header extends Component {
                 <p>
                   <li>Provided direct IT support to UTD students, faculty, staff, and affiliates</li>
                   <li>Fully documented all support interactions for tracking and escalation purposes</li>
+                  <li>Adapted to the virtual environment using Amazon Connect and Microsoft Oﬃce software </li>
                 </p>
 
                 <p className="info">Orientation Leader<span>•</span> <em className="date">May 2019 - Aug 2019</em></p>
@@ -100,7 +101,6 @@ export default class Header extends Component {
             <li>Programming Languages: Java, C, C++, Python, JavaScript, HTML5, CSS, C#, SQL, Kotlin, R</li>
             <li>Tools: Amazon Web Services, Git, Heroku, Firebase, MS Office 365, Apache Kafka</li>
             <li>Frameworks: React Native, Flask, .NET Core, ReactJS, Django, Node.js, Bootstrap</li>
-            <li>Libraries: Pandas, Numpy, Matplotlib, Scikit-learn, Dplyr, Ggplot2</li>
             <li>Relevant Coursework: Data Structures, Algorithms, Database Systems, UNIX, Architecture</li>
             <div className="bars">
               <ul className="skills">
