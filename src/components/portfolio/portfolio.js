@@ -79,6 +79,51 @@ export default class Header extends Component {
                   </a>
                 </div>
               </div> {/* item end */}
+
+              <div className="columns portfolio-item">
+                <div className="item-wrap">
+                  <a href="#modal-06" title>
+                    <img alt="" src="images/portfolio/kiva.jpg" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>Kiva Kaggle Project</h5>
+                        <p>Data Visualization, Python</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                </div>
+              </div> {/* item end */}
+
+              <div className="columns portfolio-item">
+                <div className="item-wrap">
+                  <a href="#modal-07" title>
+                    <img alt="" src="images/portfolio/meme.jpg" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>Meme Maker</h5>
+                        <p>Front End, React</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                </div>
+              </div> {/* item end */}
+
+              <div className="columns portfolio-item">
+                <div className="item-wrap">
+                  <a href="#modal-08" title>
+                    <img alt="" src="images/portfolio/netflix.jpg" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>Netflix Stock Visualization</h5>
+                        <p>Data Visualization, Python</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                </div>
+              </div> {/* item end */}
               
             </div> {/* portfolio-wrapper end */}
           </div> {/* twelve columns end */}
@@ -144,6 +189,45 @@ export default class Header extends Component {
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-05 End */}
+
+          <div id="modal-06" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/portfolio/modals/m-kiva.jpg" alt="" />
+            <div className="description-box">
+              <h4>Kiva Kaggle Project</h4>
+              <p>Data Visualization project from Kaggle dataset using Pandas and Seaborn libraries</p>
+              <span className="categories"><i className="fa fa-tag" />Data Visualization</span>
+            </div>
+            <div className="link-box">
+              <a href="https://github.com/jpspecter/Kiva-Kaggle-Project">Github</a>
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>{/* modal-06 End */}
+
+          <div id="modal-07" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/portfolio/modals/m-meme.jpg" alt="" />
+            <div className="description-box">
+              <h4>Meme Maker</h4>
+              <p>React Project to make memes and download it</p>
+              <span className="categories"><i className="fa fa-tag" />Front End, React</span>
+            </div>
+            <div className="link-box">
+              <a href="https://github.com/jpspecter/Meme-Maker">Github</a>
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>{/* modal-07 End */}
+
+          <div id="modal-08" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/portfolio/modals/m-netflix.jpg" alt="" />
+            <div className="description-box">
+              <h4>Netflix Stocks Visualization</h4>
+              <p>Data Visualization project to compare Netflix stocks and Dow Jones Average from 2017</p>
+              <span className="categories"><i className="fa fa-tag" />Data Visualization</span>
+            </div>
+            <div className="link-box">
+              <a href="https://github.com/jpspecter/Netflix-Stocks-Visualization">Github</a>
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>{/* modal-08 End */}
 
         </div> {/* row End */}
       </section>
